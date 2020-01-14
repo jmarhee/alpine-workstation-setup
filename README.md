@@ -30,7 +30,7 @@ USER="me" PASS="s3cr3t" DRIVER="modesetting" ./desktop.sh
 
 If not provided, you will be prompted as the script runs.
 
-** Note for Virtualized Guests **
+### Note for Virtualized Guests
 
 Per the [Alpine Linux documentation](https://wiki.alpinelinux.org/wiki/XFCE_Setup#Video_packages):
 
