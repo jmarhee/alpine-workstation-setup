@@ -24,7 +24,7 @@ function connectNetwork() {
 		read -p "WiFi Network SSID: " SSID
 	fi
 	if [ ! ${WIFI_PASS} ]; then
-		read -p "WiFI Pass: " WIFI_PASS
+		read -sp "WiFI Pass: " WIFI_PASS
 	fi
 
 	wpa_passphrase "$SSID" "$WIFI_PASS" > /etc/wpa_supplicant/wpa_supplicant.conf
